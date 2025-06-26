@@ -3,6 +3,7 @@ class Calculator:
         self.a = a
         self.b = b
         self.operation = operation.lower()
+    
     def calculate(self):
         if self.operation == "add":
             return self.a + self.b
